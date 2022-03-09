@@ -1,0 +1,10 @@
+public class Test {
+ 
+@Test
+public void TC1(){
+driver.findElement(By.id("login1")).sendKeys("naveen");
+driver.findElement(By.id("password")).sendKeys("naveen");
+driver.findElement(By.id("signinbtn")).click();
+
+}
+}
